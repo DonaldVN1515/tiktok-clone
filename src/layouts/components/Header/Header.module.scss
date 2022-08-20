@@ -1,0 +1,51 @@
+.wapper {
+  height: var(--default-layout-header-height, 6rem);
+  background-color: var(--white);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+.inner {
+  width: var(--default-layout-width, 115rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--default-layout-gap);
+}
+.logo {
+  display: flex;
+}
+
+// Action
+.actions {
+  display: flex;
+  align-items: center;
+}
+.actionBtn {
+  font-size: 2.2rem;
+  background-color: transparent;
+  padding-right: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.userAvt {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.moreBtn {
+  font-size: 2rem;
+  padding: 0 1rem;
+  margin-left: 2rem;
+  background-color: transparent;
+  cursor: pointer;
+}

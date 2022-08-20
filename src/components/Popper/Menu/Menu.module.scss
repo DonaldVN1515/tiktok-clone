@@ -1,0 +1,37 @@
+// MENU MORES
+.menu {
+  width: 24rem;
+  margin-top: 1.2rem;
+
+  .menuItem {
+    margin-left: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+}
+// MENUITEM
+
+.menuItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0rem 1rem 2rem;
+  height: 5rem;
+
+  &.separate {
+    border-top: 0.1rem solid rgba(22, 24, 35, 0.12);
+  }
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
+
+.menu-popper {
+  // padding: 1rem 0;
+}
+
+.menu-body {
+  overflow-y: auto;
+}
