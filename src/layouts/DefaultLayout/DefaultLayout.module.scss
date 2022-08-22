@@ -6,9 +6,11 @@
   .container {
     margin-top: var(--default-layout-header-height);
     width: var(--default-layout-width, 115rem);
+    max-width: 100%;
     min-height: 100rem;
     display: flex;
     padding: 0 var(--default-layout-gap);
+    margin-left: -24px;
     .content {
       flex: 1;
     }

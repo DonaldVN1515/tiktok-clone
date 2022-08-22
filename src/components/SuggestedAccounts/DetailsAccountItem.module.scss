@@ -1,0 +1,49 @@
+.item {
+  width: 350px;
+  transition: background-color 0.2s ease-in-out;
+  color: var(--text-color);
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+.infor {
+  padding: 5px 0;
+  p {
+    font-size: 1.5rem;
+  }
+}
+.title {
+  display: flex;
+  align-items: center;
+
+  svg {
+    font-size: 1.4rem;
+    color: aqua;
+  }
+  span {
+    font-size: 1.8rem;
+    margin-right: 5px;
+  }
+}
+.analysis {
+  display: flex;
+}
+.value {
+  font-weight: 700;
+}
+.label {
+  margin-left: 5px;
+}
+.value ~ .value {
+  margin-left: 10px;
+}

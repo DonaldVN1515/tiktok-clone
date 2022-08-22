@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+  padding: 10px 8px;
+  margin-bottom: 5px;
+  img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
+.infor {
+  margin-left: 2rem;
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+.title {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-left: 0.5rem;
+    font-size: 1.4rem;
+    color: aqua;
+  }
+}

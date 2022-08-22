@@ -22,6 +22,7 @@
     background-color: transparent;
     height: 100%;
     flex: 1;
+    padding-right: 40px;
     caret-color: var(--primary);
 
     &:not(:placeholder-shown) ~ .search {
